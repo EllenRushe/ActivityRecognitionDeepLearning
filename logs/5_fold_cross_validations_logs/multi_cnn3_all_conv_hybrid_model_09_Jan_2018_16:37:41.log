@@ -1,0 +1,126 @@
+2018-01-09 16:37:41,118 INFO Loading data...
+2018-01-09 17:23:39,646 INFO Evaluating model on test set...
+
+2018-01-09 17:23:40,063 INFO F-measure score on test set on fold 0:
+              precision    recall  f1-score   support
+
+          0       0.81      0.89      0.85       300
+          1       1.00      0.99      0.99      1095
+          2       0.98      0.96      0.97       183
+          3       0.96      0.99      0.97       148
+          4       0.90      0.88      0.89       417
+          5       0.99      0.99      0.99      1289
+
+avg / total       0.97      0.96      0.96      3432
+
+
+2018-01-09 17:23:40,067 INFO Confusion matrix on fold 0: 
+ [[ 266    0    0    0   29    5]
+ [   4 1083    0    0    5    3]
+ [   1    0  176    5    1    0]
+ [   2    0    0  146    0    0]
+ [  43    4    2    0  366    2]
+ [  11    0    1    1    4 1272]] 
+ 
+2018-01-09 17:23:40,068 INFO Macro f-score  on fold 0 (sci-kit learn implementation)0.9444783914610277:
+2018-01-09 17:23:40,324 INFO precision_recall_fscore_support 0 (sci-kit learn implementation)(0.94157428927180842, 0.94807536773646284, 0.94447839146102774, None):
+2018-01-09 18:09:54,264 INFO Evaluating model on test set...
+
+2018-01-09 18:09:54,729 INFO F-measure score on test set on fold 1:
+              precision    recall  f1-score   support
+
+          0       0.87      0.81      0.84       300
+          1       0.98      0.99      0.99      1078
+          2       0.96      0.96      0.96       170
+          3       0.92      0.96      0.94       175
+          4       0.84      0.89      0.87       378
+          5       0.99      0.98      0.98      1331
+
+avg / total       0.96      0.96      0.96      3432
+
+
+2018-01-09 18:09:54,734 INFO Confusion matrix on fold 1: 
+ [[ 244    3    0    2   45    6]
+ [   3 1067    0    2    6    0]
+ [   0    0  163    7    0    0]
+ [   0    0    7  168    0    0]
+ [  23    8    0    3  336    8]
+ [   9    7    0    1   11 1303]] 
+ 
+2018-01-09 18:09:54,735 INFO Macro f-score  on fold 1 (sci-kit learn implementation)0.9294857558007142:
+2018-01-09 18:09:55,129 INFO precision_recall_fscore_support 1 (sci-kit learn implementation)(0.92806821853370725, 0.93163414259601485, 0.92948575580071424, None):
+2018-01-09 18:56:19,016 INFO Evaluating model on test set...
+
+2018-01-09 18:56:19,593 INFO F-measure score on test set on fold 2:
+              precision    recall  f1-score   support
+
+          0       0.85      0.79      0.82       312
+          1       0.98      0.99      0.98      1058
+          2       0.95      0.97      0.96       197
+          3       0.96      0.92      0.94       142
+          4       0.85      0.81      0.83       404
+          5       0.96      0.99      0.97      1319
+
+avg / total       0.94      0.94      0.94      3432
+
+
+2018-01-09 18:56:19,598 INFO Confusion matrix on fold 2: 
+ [[ 246    4    0    0   47   15]
+ [   1 1043    0    0    3   11]
+ [   1    0  192    3    1    0]
+ [   0    0   10  131    1    0]
+ [  32   17    0    1  328   26]
+ [   8    3    1    2    4 1301]] 
+ 
+2018-01-09 18:56:19,599 INFO Macro f-score  on fold 2 (sci-kit learn implementation)0.9178341440060339:
+2018-01-09 18:56:20,100 INFO precision_recall_fscore_support 2 (sci-kit learn implementation)(0.9249040730377881, 0.91161213856320622, 0.91783414400603391, None):
+2018-01-09 19:42:29,145 INFO Evaluating model on test set...
+
+2018-01-09 19:42:29,732 INFO F-measure score on test set on fold 3:
+              precision    recall  f1-score   support
+
+          0       0.84      0.87      0.86       334
+          1       0.97      0.99      0.98      1042
+          2       1.00      0.93      0.96       219
+          3       0.93      0.96      0.94       145
+          4       0.87      0.77      0.82       347
+          5       0.97      0.98      0.98      1344
+
+avg / total       0.95      0.95      0.95      3431
+
+
+2018-01-09 19:42:29,736 INFO Confusion matrix on fold 3: 
+ [[ 291    4    0    0   31    8]
+ [   1 1031    0    0    1    9]
+ [   3    1  203   11    1    0]
+ [   2    0    1  139    1    2]
+ [  33   25    0    0  268   21]
+ [  15    4    0    0    7 1318]] 
+ 
+2018-01-09 19:42:29,738 INFO Macro f-score  on fold 3 (sci-kit learn implementation)0.9217693421537335:
+2018-01-09 19:42:30,397 INFO precision_recall_fscore_support 3 (sci-kit learn implementation)(0.92852948649649047, 0.91654187465440151, 0.92176934215373352, None):
+2018-01-09 20:28:35,182 INFO Evaluating model on test set...
+
+2018-01-09 20:28:35,822 INFO F-measure score on test set on fold 4:
+              precision    recall  f1-score   support
+
+          0       0.80      0.85      0.82       320
+          1       0.99      0.99      0.99      1072
+          2       0.97      0.93      0.95       166
+          3       0.91      0.95      0.93       146
+          4       0.86      0.81      0.84       382
+          5       0.99      0.99      0.99      1345
+
+avg / total       0.95      0.95      0.95      3431
+
+
+2018-01-09 20:28:35,828 INFO Confusion matrix on fold 4: 
+ [[ 272    0    1    0   40    7]
+ [   2 1060    0    1    4    5]
+ [   1    0  154    9    1    1]
+ [   2    1    4  139    0    0]
+ [  55   10    0    2  310    5]
+ [  10    4    0    1    5 1325]] 
+ 
+2018-01-09 20:28:35,830 INFO Macro f-score  on fold 4 (sci-kit learn implementation)0.9185329004418955:
+2018-01-09 20:28:36,685 INFO precision_recall_fscore_support 4 (sci-kit learn implementation)(0.91868392900161966, 0.91920334069579823, 0.91853290044189551, None):
